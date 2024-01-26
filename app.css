@@ -6,6 +6,8 @@
 .main{
     height: 80vh;
     background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
     position: relative;
 }
 
@@ -14,6 +16,8 @@
     width: 100%;
     opacity: 0.44;
     background-color: black;
+    
+
     position: absolute;
     top: 0;
 
@@ -25,4 +29,27 @@ nav {
     align-items: center;
     width: 80vw;
     margin: auto;
+    height: 62px;
+}
+
+nav img {
+
+    color: red;
+    width: 114px;
+
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
 }
